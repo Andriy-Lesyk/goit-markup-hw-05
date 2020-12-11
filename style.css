@@ -605,6 +605,28 @@ margin-bottom: 9px;
     width: 528px;
     height: 581px;
     background-color: #ffffff;
+    
+}
+.modal-btn-close{
+    position: absolute;
+    right: 8px;
+    top:8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color:  rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: var(--roboto-font);
+}
+
+ .modal-close-icon{
+
+    width: 28px;
+    height: 18px;
 }
 
 /*--------------END MODAL WINDOW---------------*/
