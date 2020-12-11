@@ -78,6 +78,16 @@ color: #000000;
 .current{
     color:var(--accent-color);
 }
+.current::after{
+    content:'';
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 44px;
+    
+}
 
 .contacts-smartphone{
     margin-left: 50px;
@@ -139,6 +149,7 @@ letter-spacing: 0.02em;
 }
 .nav-list{
     color: var(--titles-color);
+    position: relative;
 }
 .nav-list, .contacts, .advantages-list, .we_made_job-list, .our-team-list, .btn-list, .examples-list {
 list-style: none;
@@ -570,6 +581,12 @@ padding-top: 94px;
 
 }
 
+.header-portfolio{
+    border-bottom: 1px solid #ECECEC;
+    position: relative;
+       
+}
+
 
 .card{
     padding-top: 20px;
@@ -631,6 +648,7 @@ line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--titles-color);
+
 }
 .btn-sheet:not(:last-child){
     margin-right: 8px;
